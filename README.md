@@ -188,6 +188,7 @@ All in under **10 seconds** — no GPU required.
 These are **simulated results** approximating the relative performance trends from the original research papers.
 <p align="center">
   <img src="comparison.png" alt="Comparison" width="720">
+  <br> </br>
   <em>Figure: Visual Comparison DNSpotless-3DGS.</em>
 </p>
 <p align="center">
