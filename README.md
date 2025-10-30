@@ -193,6 +193,7 @@ These are **simulated results** approximating the relative performance trends fr
 </p>
 <p align="center">
   <img src="graphs.png" alt="Graphs" width="720">
+  <br> </br>
   <em>Figure: Graphical comparison DNSpotless-3DGS.</em>
 </p>
 ---
