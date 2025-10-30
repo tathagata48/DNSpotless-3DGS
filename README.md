@@ -207,6 +207,10 @@ Outputs (metrics CSVs and PSNR plots) are automatically saved in `outputs/`.
 | **Combined**     | **29.67** | **23 cm**   | **1.6°**     | **0.5/10**   |
 
 These are **simulated results** approximating the relative performance trends from the original research papers.
+<p align="center">
+  <img src="comparison.png" alt="Comparison" width="720">
+  <em>Figure: Baseline vs. DNSpotless-3DGS.</em>
+</p>
 
 ---
 
