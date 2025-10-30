@@ -175,27 +175,6 @@ All in under **10 seconds** — no GPU required.
 
 ---
 
-## 🚀 Usage
-
-Each training configuration is defined in `configs/`.
-
-```bash
-# Baseline
-python scripts/train_baseline.py --config configs/baseline.json
-
-# DN-Splatter (depth + normal priors)
-python scripts/train_dn_splatter.py --config configs/dn_splatter.json
-
-# SpotLessSplats (confidence weighting)
-python scripts/train_spotless.py --config configs/spotless.json
-
-# Combined (all components)
-python scripts/train_combined.py --config configs/combined.json
-```
-
-Outputs (metrics CSVs and PSNR plots) are automatically saved in `outputs/`.
-
----
 
 ## 📊 Reproduced Metrics (Simulated)
 
@@ -209,30 +188,12 @@ Outputs (metrics CSVs and PSNR plots) are automatically saved in `outputs/`.
 These are **simulated results** approximating the relative performance trends from the original research papers.
 <p align="center">
   <img src="comparison.png" alt="Comparison" width="720">
-  <em>Figure: Baseline vs. DNSpotless-3DGS.</em>
+  <em>Figure: Visual Comparison DNSpotless-3DGS.</em>
 </p>
-
----
-
-## 🧩 Repository Structure
-
-```
-dnspotless-3dgs/
-├── src/dnspotless_3dgs/
-│   ├── core.py
-│   ├── priors/depth_normal.py
-│   ├── outliers/spotless.py
-│   └── combined/trainer.py
-├── scripts/
-├── configs/
-├── tests/
-├── outputs/
-├── references.bib
-├── CITATION.cff
-├── LICENSE
-└── README.md
-```
-
+<p align="center">
+  <img src="graphs.png" alt="Graphs" width="720">
+  <em>Figure: Graphical comparison DNSpotless-3DGS.</em>
+</p>
 ---
 
 ## 📚 References
